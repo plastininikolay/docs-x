@@ -69,7 +69,7 @@ export default class Writing {
 
     if (this.nodes.removeButton) {
       this.nodes.removeButton.addEventListener('click', () => {
-        const isUserAgree = window.confirm('Are you sure?');
+        const isUserAgree = window.confirm('Вы уверены?');
 
         if (!isUserAgree) {
           return;
@@ -101,7 +101,7 @@ export default class Writing {
     } : {};
 
     return new Editor(editorConfig, {
-      headerPlaceholder: 'Enter a title'
+      headerPlaceholder: 'Введите заголовок'
     });
   }
 
@@ -125,7 +125,7 @@ export default class Writing {
     }
 
     if (!title) {
-      throw new Error('Entry should start with Header');
+      throw new Error('Страница должна содержать заголовок');
     }
 
     /** get ordering selector value */

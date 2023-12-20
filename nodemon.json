@@ -8,5 +8,6 @@
   "watch": [
     "**/*"
   ],
-  "ext": "ts,js,twig"
+  "ext": "ts,js,twig",
+  "exec": "node --experimental-specifier-resolution=node --loader ts-node/esm"
 }

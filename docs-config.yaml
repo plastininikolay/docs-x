@@ -12,7 +12,7 @@ uploads:
     accessKeyId: "my-access-key"
     secretAccessKey: "my-secret-key"
 frontend:
-  title: "CodeX Docs"
+  title: "X5 Tech LK2"
   description: "Free Docs app powered by Editor.js ecosystemt"
   startPage: ""
   misprintsChatId: "12344564"
@@ -22,8 +22,8 @@ frontend:
     placement: ""
   menu:
     - "Guides"
-    - title: "CodeX"
-      uri: "https://codex.so"
+    - title: "X5 Docs"
+      uri: "https://lk2.x5.ru"
 
 auth:
   password: secretpassword
